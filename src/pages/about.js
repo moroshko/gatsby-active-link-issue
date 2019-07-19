@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Home = () => (
+const About = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="About" />
     <Link to="/" activeStyle={{ backgroundColor: "#aaa" }}>
       Home
     </Link>
@@ -15,4 +15,4 @@ const Home = () => (
   </Layout>
 )
 
-export default Home
+export default About
